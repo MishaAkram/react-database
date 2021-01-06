@@ -68,7 +68,7 @@ class App extends Component {
           <PublicRoute path="/signup" authenticated={this.state.authenticated} component={Signup}></PublicRoute>
           <PublicRoute path="/login" authenticated={this.state.authenticated} component={Login}></PublicRoute>
         </Switch>
-       Homepage
+       Home page 
       </Router>
     );
   }
