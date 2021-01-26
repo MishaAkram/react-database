@@ -70,6 +70,7 @@ export default class Profile extends Component {
         this.setState({
           note: snapshot.val(),
           content: snapshot.val().content
+      
         });
       });
   }
@@ -96,7 +97,7 @@ export default class Profile extends Component {
                 className="btn btn-sm text-danger"
                 onClick={() => this.deleteNote(note.note_id)}
               >
-                Delete
+                Delete button
               </button>
             </div>
           );
